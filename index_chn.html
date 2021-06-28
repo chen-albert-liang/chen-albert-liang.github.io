@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LandingPage</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Stardos+Stencil:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="nav-container">
-        <div class="wrapper">
-            <nav>
-                <ul class="nav-items">
-                    <li>
-                        <a href="#">English</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="wrapper">
+        <nav>
+          <ul class="nav-items">
+            <li>
+              <a href="#">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-
 
     <div class="header-container">
-        <h1>ODDS</h1> 
-        
+      <header>
+        <h1>ODDS</h1>
         <h2>胜率</h2>
-    </div>
-        
-    <div class="marketing-container"> 
-        <div class="wrapper">
-            <div class="Marketing-image"> 
-                <img src="images/trading-volume-chart.svg" alt="">
-            </div>
-            <div class="Marketing-content"> 
-                <h1>为什么交易美股期权？</h1>
-                <h2>持续增长的交易市场</h2>
-                <h2>更加灵活的风险控制</h2>
-                <h2>更加丰富的盈利策略</h2>
-                <h2>更加优惠的税率（美国）</h2>
-            </div>
-        </div>
+      </header>
     </div>
 
-    <div class="function-container"> 
-        <div class="wrapper">
-
-            <div class="ODDSFunctions-content"> 
-                <h1>ODDS 为您提供</h1>
-                <h2>策略分析</h2>
-                <h2>交易分享</h2>
-                <h2>模拟操盘</h2>
-                <div class="ODDSFunctions-icon"> 
-                    <img src="images/find-strategy-icon.svg" alt="">
-                    <img src="images/idea-sharing-icon.svg" alt="">
-                    <img src="images/paper-trade-icon.svg" alt="">
-                </div>
-
-            </div>
+    <div class="marketing-container">
+      <div class="marketing-image">
+        <img src="images/trading-volume-chart.svg" alt="" />
+      </div>
+      <div class="marketing-content">
+        <div>
+          <h1>为什么交易美股期权？</h1>
+          <h2>持续增长的交易市场</h2>
+          <h2>更加灵活的风险控制</h2>
+          <h2>更加丰富的盈利策略</h2>
+          <h2>更加优惠的税率（美国）</h2>
         </div>
+      </div>
+    </div>
+
+    <div class="function-container">
+      <div class="function-content">
+        <h1>ODDS 为您提供</h1>
+        <div class="function-items">
+          <div class="function-item">
+            <h2>策略分析</h2>
+            <img src="images/find-strategy-icon.svg" alt="策略分析" />
+          </div>
+          <div class="function-item">
+            <h2>交易分享</h2>
+            <img src="images/idea-sharing-icon.svg" alt="交易分享" />
+          </div>
+          <div class="function-item">
+            <h2>模拟操盘</h2>
+            <img src="images/paper-trade-icon.svg" alt="模拟操盘" />
+          </div>
+        </div>
+        <div class="ODDSFunctions-icon"></div>
+      </div>
     </div>
 
     <div class="waitlist">
-        <a href="#">
-            加入等待名单
-        </a>
+      <a class="link-button" href="#">加入等待名单</a>
     </div>
 
+    <footer>
+      <p>Copyright 2021. Odds Trade, Inc. All rights reserved.</p>
+    </footer>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
