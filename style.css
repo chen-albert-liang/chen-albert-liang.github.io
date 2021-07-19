@@ -434,11 +434,13 @@ header h2 {
   font-size: 2rem;
   font-weight: normal;
   margin: 0 0 1rem;
+  font-family: 'Stardos Stencil', cursive;
 }
 
 .marketing-content h2 {
   font-size: 1.5rem;
   margin: 1.4rem 0;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .marketing-content h2:last-child {
