@@ -479,7 +479,7 @@ header h2 {
 }
 
 .waitlist {
-  margin: 2rem;
+  margin: 3rem;
   text-align: center;
 }
 
@@ -517,12 +517,13 @@ footer {
   }
 
   header h1 {
-    font-size: 6rem;
+    font-size: 10rem;
     line-height: 5rem;
   }
 
   header h2 {
-    font-size: 2rem;
+	font-size: 6rem;
+    line-height: 10rem;
   }
 
 
@@ -534,12 +535,10 @@ footer {
   }
 
   .landing-content h1 {
+	font-size: 3.5rem;
     margin: 1rem 0;
   }
 
-  .landing-content h2:last-child {
-    margin-bottom: 1.4rem;
-  }
 
   .landing-image {
     margin-bottom: 0;
@@ -579,6 +578,7 @@ footer {
   }
 
   .profile-content h1 {
+	font-size: 3rem;
     margin: 1rem 0;
   }
 
@@ -608,7 +608,8 @@ footer {
   }
 
   .notification-content h1 {
-    margin: 1rem 0;
+    font-size: 3rem;
+	margin: 1rem 0;
   }
 
   .notification-image {
@@ -636,7 +637,8 @@ footer {
   }
 
   .research-content h1 {
-    margin: 1rem 0;
+    font-size: 3rem;
+	margin: 1rem 0;
   }
 
   .research-image {
@@ -665,7 +667,8 @@ footer {
   }
 
   .trade-content h1 {
-    margin: 1rem 0;
+    font-size: 3rem;
+	margin: 1rem 0;
   }
 
   .trade-image {
@@ -693,11 +696,13 @@ footer {
   }
 
   .marketing-content h1 {
-    margin: 1rem 0;
+    font-size: 5rem;
+	margin: 1rem 0;
   }
 
   .marketing-content h2:last-child {
-    margin-bottom: 1.4rem;
+    font-size: 3rem;
+	margin-bottom: 1.4rem;
   }
 
   .marketing-image {
