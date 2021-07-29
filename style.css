@@ -415,37 +415,46 @@ header h2 {
   text-align: center;
 }
 
-.marketing-image {
-  margin-bottom: 0.5rem;
-}
 
-.marketing-image img {
-  width: 100%;
-}
-
-.marketing-content {
+.landing-container {
   background: #232323;
   margin-bottom: 2rem;
   text-align: center;
   padding: 1rem;
 }
 
-.marketing-content h1 {
+.landing-content h1 {
   font-size: 2rem;
   font-weight: normal;
   margin: 0 0 1rem;
   font-family: 'Stardos Stencil', cursive;
 }
 
-.marketing-content h2 {
+.landing-content h2 {
   font-size: 1.5rem;
   margin: 1.4rem 0;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.marketing-content h2:last-child {
+.landing-content h2:last-child {
   margin-bottom: 0;
 }
+
+.landing-image {
+  margin-bottom: 0.5rem;
+}
+
+.landing-image img {
+width: 100%;
+}
+
+.landing-content {
+background: inherit;
+margin-right: 2rem;
+margin-bottom: 0;
+padding: 0;
+}
+
 
 .function-container {
 }
@@ -574,7 +583,7 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15rem;
+    margin-bottom: 20rem;
 	margin-left: 15rem;	
 	padding: 2rem;	
   }
@@ -607,21 +616,34 @@ footer {
     padding: 0;
   }
 
-   
-	  
-  .function-container {
-	margin-bottom: 4rem;
-  }
 
-  .function-content {
-    margin: 0 auto;
-	width: 80%;
+  .function-container {
+	text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+	
+	padding: 2rem;	
   }
 
   .function-content h1 {
-    text-align: center;
-   }
-     
+    font-size: 4rem;
+	margin: 1rem 0;
+	font-family: Helvetica;
+	margin-bottom: 3.0rem;
+  }
+
+  .function-content h2 {
+    font-size: 2rem;
+	margin-bottom: 1.4rem;
+	font-family: Helvetica;
+  }
+
+  .function-content {
+    background: inherit;    
+    margin-bottom: 0;
+    padding: 0;
+  }
 
   .profile-container {
     align-items: center;
@@ -652,8 +674,6 @@ footer {
     margin-bottom: 0;
     padding: 0;
   }
-   
-
 
   .notification-container {
     align-items: center;
