@@ -416,9 +416,11 @@ header h2 {
 }
 
 
-.landing-container {
+
+.landing-content {
   background: #232323;
   margin-bottom: 2rem;
+  margin-left: 5rem;
   text-align: center;
   padding: 1rem;
 }
@@ -442,17 +444,44 @@ header h2 {
 
 .landing-image {
   margin-bottom: 0.5rem;
+  margin-left: 15rem;
 }
 
 .landing-image img {
-width: 100%;
+  width: 100%;
 }
 
-.landing-content {
-background: inherit;
-margin-right: 2rem;
-margin-bottom: 0;
-padding: 0;
+
+
+.marketing-image {
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.marketing-image img {
+  width: 100%;
+}
+
+.marketing-content {
+  background: #232323;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.marketing-content h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem;
+}
+
+.marketing-content h2 {
+  font-size: 1.5rem;
+  margin: 1.4rem 0;
+}
+
+.marketing-content h2:last-child {
+  margin-bottom: 0;
 }
 
 
@@ -486,6 +515,8 @@ padding: 0;
 .function-content .function-items .function-item img {
   max-height: 60px;
 }
+
+
 
 .waitlist {
   margin: 3rem;
