@@ -420,7 +420,6 @@ header h2 {
 .landing-content {
   background: #232323;
   margin-bottom: 2rem;
-  margin-left: 5rem;
   text-align: center;
   padding: 1rem;
 }
@@ -433,34 +432,24 @@ header h2 {
   font-family: Helvetica;
 }
 
-.landing-content h2 {
-  font-size: 1.5rem;
-  margin: 1.4rem 0;
-  font-family: Helvetica ;
-}
-
-.landing-content h2:last-child {
-  margin-bottom: 0;
-}
-
 .landing-image {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   margin-left: 15rem;
 }
 
 .landing-image img {
-  width: 60%;
+  width: 100%;
 }
 
 
 
 .marketing-image {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   margin-left: 1rem;
 }
 
 .marketing-image img {
-  width: 60%;
+  width: 100%;
 }
 
 .marketing-content {
@@ -485,7 +474,6 @@ header h2 {
   margin-bottom: 0;
 }
 
-
 .function-container {
 }
 
@@ -494,29 +482,23 @@ header h2 {
   width: 80%;
 }
 
+
 .function-content h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem;
   text-align: center;
 }
 
-.function-content .function-items {
-  justify-content: space-between;
-}
-
-.function-content .function-items .function-item {
-  display: flex;
-  flex-direction: column-reverse;
-  margin: 1.4rem auto;
+.function-content h2 {
+  font-size: 1rem;
+  margin: 1.4rem 0;
   text-align: center;
 }
 
-.function-content .function-items .function-item h2 {
-  margin-bottom: 1rem;
+.function-content h2:last-child {
+  margin-bottom: 0;
 }
-
-.function-content .function-items .function-item img {
-  max-height: 60px;
-}
-
 
 
 .waitlist {
@@ -650,11 +632,10 @@ footer {
 
 
   .function-container {
-	text-align: center;
+	align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15rem;
-	
+    margin-bottom: 15rem;	
 	padding: 2rem;	
   }
 
