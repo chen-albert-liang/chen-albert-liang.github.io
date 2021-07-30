@@ -503,7 +503,7 @@ header h2 {
 .waitlist {
   margin: 3rem;
   font-family: Graphik;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -512,7 +512,7 @@ header h2 {
   border-radius: 0.6rem;
   color: #ffffff;
   display: inline-block;
-  padding: 0.9rem 1.2rem;
+  padding: 1.2rem 1.8rem;
   text-decoration: none;
 }
 
