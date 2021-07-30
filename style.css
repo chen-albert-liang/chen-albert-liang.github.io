@@ -399,17 +399,17 @@ header {
 
 header h1 {
   color: #ffffff;
-  font-family: 'Stardos Stencil', cursive;
-  font-size: 4rem;
+  font-family: Graphik;
+  font-size: 10rem;
   font-weight: normal;
-  line-height: 3.8rem;
+  line-height: 6rem;
   margin: 0;
   text-align: center;
 }
 
 header h2 {
   color: #ffffff;
-  font-family: 'Helvetica';
+  font-family: Graphik;
   font-weight: normal;
   font-size: 1.6rem;
   text-align: center;
@@ -429,7 +429,7 @@ header h2 {
   font-size: 2rem;
   font-weight: normal;
   margin: 0 0 1rem;
-  font-family: Helvetica;
+  font-family: Graphik;
 }
 
 .landing-image {
@@ -503,6 +503,7 @@ header h2 {
 
 .waitlist {
   margin: 3rem;
+  font-family: Graphik;
   font-size: 2rem;
   text-align: center;
 }
@@ -564,7 +565,7 @@ footer {
 	margin-left: 5rem;
 	margin-right: 5rem;
 	font-size: 3.5rem;
-	font-family: Helvetica;    
+	font-family: Graphik;    
   }
 
   .landing-image {
@@ -594,14 +595,14 @@ footer {
   .marketing-content h1 {
     margin-left: 10rem;
 	font-size: 3.5rem;	
-	font-family: Helvetica;
+	font-family: Graphik;
   }
 
   .marketing-content h2 {
 	margin-left: 10rem;
     font-size: 2.5rem;
 	margin-bottom: 1.4rem;
-	font-family: Helvetica;
+	font-family: Graphik;
   }
 
   .marketing-image {
@@ -635,14 +636,14 @@ footer {
   .function-content h1 {
     font-size: 3.5rem;
 	margin: 1rem 0;
-	font-family: Helvetica;
+	font-family: Graphik;
 	margin-bottom: 3.0rem;
   }
 
   .function-content h2 {
     font-size: 1.5rem;
 	margin-bottom: 1.4rem;
-	font-family: Helvetica;
+	font-family: Graphik;
   }
 
   .function-content {
