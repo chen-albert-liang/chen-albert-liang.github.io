@@ -400,7 +400,7 @@ header {
 header h1 {
   color: #ffffff;
   font-family: Graphik;
-  font-size: 10rem;
+  font-size: 6rem;
   font-weight: normal;
   line-height: 6rem;
   margin: 0;
@@ -544,7 +544,7 @@ footer {
   }
 
   header h1 {
-    font-size: 6rem;
+    font-size: 9rem;
     line-height: 5rem;
   }
 
