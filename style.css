@@ -624,13 +624,7 @@ footer {
   }
 
 
-  .function-container {
-	align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15rem;	
-	padding: 2rem;	
-  }
+
 
   .function-content h1 {
     font-size: 3.5rem;
