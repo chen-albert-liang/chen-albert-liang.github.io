@@ -464,7 +464,7 @@ header h2 {
 }
 
 .marketing-content h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: normal;
   margin: 0 0 1rem;
 }
@@ -491,7 +491,7 @@ header h2 {
 .function-content h1 {
   text-align: center;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -504,7 +504,7 @@ header h2 {
   flex-direction: column-reverse;
   margin: 1.4rem auto;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   
   font-family: 'Courier New', Courier, monospace;
 }
@@ -645,6 +645,13 @@ footer {
     padding: 0;
   }
 
+.function-content h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
   .function-content .function-items {
     display: flex;
   }
@@ -652,6 +659,7 @@ footer {
   .function-content .function-items .function-item {
     flex-direction: column;
     margin: 0;
+	font-size: 1.5rem;	
   }
 
    
