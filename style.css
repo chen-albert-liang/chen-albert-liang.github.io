@@ -390,17 +390,19 @@ nav ul {
 
 .header-container {
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 header {
   margin: 0 auto;
+  margin-top: 4rem;
 }
 
 header h1 {
   color: #ffffff;
-  font-family: Graphik;
-  font-size: 3rem;
+  font-family: 'Stardos Stencil', cursive;
+
+  font-size: 2rem;
   font-weight: normal;
   line-height: 3rem;
   margin: 0;
@@ -409,9 +411,10 @@ header h1 {
 
 header h2 {
   color: #ffffff;
-  font-family: Graphik;
+  margin-top: 2rem;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -429,7 +432,7 @@ header h2 {
   font-size: 2rem;
   font-weight: normal;
   margin: 0 0 1rem;
-  font-family: Graphik;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .landing-image {
@@ -460,13 +463,14 @@ header h2 {
 }
 
 .marketing-content h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
   margin: 0 0 1rem;
 }
 
 .marketing-content h2 {
   font-size: 1.5rem;
+  font-weight: normal;
   margin: 1.4rem 0;
 }
 
@@ -480,10 +484,14 @@ header h2 {
 .function-content {
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 5rem;
 }
 
 .function-content h1 {
   text-align: center;
+  font-weight: normal;
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .function-content .function-items {
@@ -495,10 +503,14 @@ header h2 {
   flex-direction: column-reverse;
   margin: 1.4rem auto;
   text-align: center;
+  font-size: 1.5rem;
+  
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .function-content .function-items .function-item h2 {
   margin-bottom: 1rem;
+  font-weight: normal;
 }
 
 .function-content .function-items .function-item img {
@@ -508,7 +520,7 @@ header h2 {
 
 .waitlist {
   margin: 3rem;
-  font-family: Graphik;
+  font-family: Arial;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -526,6 +538,7 @@ footer {
   font-size: 0.8rem;
   margin-bottom: 1rem;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* --- Tablet/Desktop --- */
@@ -544,17 +557,17 @@ footer {
 
   .header-container {
 	margin-top: 0.5rem;
-    margin-bottom: 12rem;
+    margin-bottom: 6rem;
 	margin-left: 1rem;
   }
 
   header h1 {
-    font-size: 9rem;
+    font-size: 8rem;
     line-height: 5rem;
   }
 
   header h2 {
-	font-size: 4rem;
+	font-size: 3rem;
     line-height: 5rem;
   }
 
@@ -563,14 +576,15 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15rem;
+    margin-bottom: 1rem;
+	padding: 2rem;	
   }
 
   .landing-content h1 {
 	margin-left: 5rem;
 	margin-right: 5rem;
-	font-size: 3.5rem;
-	font-family: Graphik;    
+	font-size: 3rem;
+	font-family: 'Courier New', Courier, monospace;
   }
 
   .landing-image {
@@ -593,21 +607,22 @@ footer {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20rem;
+    margin-bottom: 10rem;
 	padding: 2rem;	
   }
 
   .marketing-content h1 {
-    margin-left: 10rem;
-	font-size: 3.5rem;	
-	font-family: Graphik;
+	text-align: center;
+    margin-left: 15rem;
+	font-size: 3rem;	
+	font-family: 'Courier New', Courier, monospace;
   }
 
   .marketing-content h2 {
-	margin-left: 10rem;
-    font-size: 2.5rem;
+	margin-left: 15rem;
+    font-size: 2rem;
 	margin-bottom: 1.4rem;
-	font-family: Graphik;
+	font-family: 'Courier New', Courier, monospace;
   }
 
   .marketing-image {
@@ -638,128 +653,6 @@ footer {
     margin: 0;
   }
 
-  .profile-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20rem;
-	margin-left: 10rem;	
-	padding: 2rem;
-  }
-
-  .profile-content h1 {
-	font-size: 2.5rem;
-    margin: 1rem 0;
-  }
-
-  .profile-image {
-    margin-bottom: 0;
-    width: 60%;
-  }
-
-  .profile-image img {
-    width: 60%;
-  }
-
-  .profile-content {
-    background: inherit;
-    margin-right: 2rem;
-    margin-bottom: 0;
-    padding: 0;
-  }
-
-  .notification-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20rem;
-	margin-left: 10rem;	
-	padding: 2rem;
-  }
-
-  .notification-content h1 {
-    font-size: 3rem;
-	margin: 1rem 0;
-  }
-
-  .notification-image {
-    margin-bottom: 0;
-    width: 60%;
-  }
-
-  .notification-image img {
-    width: 60%;
-  }
-
-  .notification-content {
-    background: inherit;
-    margin-right: 2rem;
-    margin-bottom: 0;
-    padding: 0;
-  }
- 
-
-  .research-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20rem;
-	margin-left: 10rem;	
-	padding: 2rem;
-  }
-
-  .research-content h1 {
-    font-size: 3rem;
-	margin: 1rem 0;
-  }
-
-  .research-image {
-    margin-bottom: 0;
-    width: 60%;
-  }
-
-  .research-image img {
-    width: 60%;
-  }
-
-  .research-content {
-    background: inherit;
-    margin-right: 2rem;
-    margin-bottom: 0;
-    padding: 0;
-  }
-   
-      
-
-  .trade-container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10rem;
-	margin-left: 10rem;	
-	padding: 2rem;	
-  }
-
-  .trade-content h1 {
-    font-size: 3rem;
-	margin: 1rem 0;
-  }
-
-  .trade-image {
-    margin-bottom: 0;
-    width: 60%;
-  }
-
-  .trade-image img {
-    width: 60%;
-  }
-
-  .trade-content {
-    background: inherit;
-    margin-right: 2rem;
-    margin-bottom: 0;
-    padding: 0;
-  } 
    
 
   /* .function-content .function-items { */
