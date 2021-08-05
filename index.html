@@ -14,6 +14,25 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+	<script type="text/javascript">
+		// Wait for the page to load first
+		window.onload = function() {
+			var $form = $('form#waitlist-form'),
+				url = 'https://script.google.com/macros/s/AKfycbxo4sKThB130VtqUfXXodH_Yu33NnAIgaj8pwmpjncfTfZEF66yFSwq6EfBWExdYlnF/exec'
+
+			$('#submit-form').on('click', function(e) {
+			  e.preventDefault();
+			  var jqxhr = $.ajax({
+				url: url,
+				method: "GET",
+				dataType: "json",
+				data: $form.serializeObject()
+			  }).success(
+				// do something
+			  );
+			})
+	  }
+	</script>
   </head>
   <body>
 
@@ -29,12 +48,12 @@
 		  <div>
 			  <h1>First Social Trading Platform for Options Users</h1>
 		  </div>
-		  <div class="waitlist">
-		    <input type="email" placeholder="Enter your e-mail Address" />
-			<a class="link-button" href="https://forms.gle/Jt7rdno4Tc9BNYXm7"
-				>Become Alpha User</a
-			>
-		  </div>		
+		  <form id="waitlist-form">
+			  <div class="waitlist">
+				<input type="email" name="Email" placeholder="Enter your e-mail Address" />			
+				<button class="link-button" type="submit"id="submit-form" >Become Alpha User</button>
+			  </div>
+		  </form>
       </div>
 
       <div class="landing-image">
