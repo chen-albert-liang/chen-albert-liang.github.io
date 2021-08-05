@@ -401,8 +401,7 @@ header {
 header h1 {
   color: #ffffff;
   font-family: 'Stardos Stencil', cursive;
-
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
   line-height: 3rem;
   margin: 0;
@@ -429,7 +428,7 @@ header h2 {
 
 
 .landing-content h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: normal;
   margin: 0 0 1rem;
   font-family: 'Courier New', Courier, monospace;
@@ -464,13 +463,13 @@ header h2 {
 }
 
 .marketing-content h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: normal;
   margin: 0 0 1rem;
 }
 
 .marketing-content h2 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: normal;
   margin: 1.4rem 0;
 }
