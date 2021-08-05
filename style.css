@@ -519,7 +519,7 @@ header h2 {
 
 .waitlist {
   margin: 3rem;
-  font-family: Arial;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -650,6 +650,11 @@ footer {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.function-content .function-items .function-item h2 {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
   .function-content .function-items {
     display: flex;
   }
@@ -657,7 +662,6 @@ footer {
   .function-content .function-items .function-item {
     flex-direction: column;
     margin: 0;
-	font-size: 1.5rem;	
   }
 
    
