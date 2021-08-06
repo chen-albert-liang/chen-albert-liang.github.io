@@ -1,5 +1,5 @@
-var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycby-MGq3wv64CpW7d7olxUTmq7wqy0YUOB3sMQBdCxLCCqOMpoYXXvAR1qOUGviQzQc/exec'
+var $form = $('form#waitlist-form'),
+    url = 'https://script.google.com/macros/s/AKfycbx6yzPZPYSZGhs_eoE1wh40tvQO3zV0diwSTbQwjIU98xESchbNub_Juu_6fXHLjDc/exec'
 
 $('#submit-form').on('click', function(e) {
   e.preventDefault();
