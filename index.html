@@ -92,7 +92,27 @@
 	  <p>E-mail: contact@odds.trade</p>
     </footer>
 
-	
-    <script src="google_waitlist_script.js"></script>
+
+	<form name="submit-to-google-sheet">
+	  <input name="email" type="email" placeholder="Email" required>
+	  <button type="submit">Send</button>
+	</form>
+
+	<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+	<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+	<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
+	<script>
+	  const scriptURL = 'https://script.google.com/macros/s/AKfycbwGZJAY6QQQBpbLl6SPUAj8Eiu0MYNtvMkbyi5Ma7jgYbCKJWgWAptk8kCMRXpWhEy3/exec'
+	  const form = document.forms['submit-to-google-sheet']
+
+	  form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+		  .then(response => console.log('Success!', response))
+		  .catch(error => console.error('Error!', error.message))
+	  })
+	</script>
+
   </body>
 </html>
