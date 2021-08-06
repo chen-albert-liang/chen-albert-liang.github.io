@@ -14,28 +14,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-	<script type="text/javascript">
-		// Wait for the page to load first
-		window.onload = function() {
-			var $form = $('form#waitlist-form'),
-				url = 'https://script.google.com/macros/s/AKfycbxo4sKThB130VtqUfXXodH_Yu33NnAIgaj8pwmpjncfTfZEF66yFSwq6EfBWExdYlnF/exec'
-
-			$('#submit-form').on('click', function(e) {
-			  e.preventDefault();
-			  var jqxhr = $.ajax({
-				url: url,
-				method: "GET",
-				dataType: "json",
-				data: $form.serializeObject()
-			  }).success(
-				// do something
-			  );
-			})
-	  }
-	</script>
   </head>
   <body>
-
     <div class="header-container">
       <header>
         <h1>ODDS &#8729 TRADE</h1>
