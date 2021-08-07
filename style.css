@@ -176,15 +176,15 @@ textarea {
 
 form input {
   /* 1 */
-  overflow: visible;
-  width: 25rem;
+  /*overflow: visible;*/
+  width: 100%;
   height:5rem;  
 }
 
 form button{
   /* 1 */
   overflow: visible;
-  width: 12rem;
+  width: 25%;
   height: 5rem;
   margin-left:0;
 }
@@ -566,6 +566,28 @@ footer {
   nav {
     justify-content: flex-end;
   }
+  
+  form input {
+  /* 1 */
+  /*overflow: visible;*/
+  width: 25rem;
+  height:5rem;  
+  }
+
+  form button{
+  /* 1 */
+  overflow: visible;
+  width: 12rem;
+  height: 5rem;
+  margin-left:0;
+  }
+
+
+	form {
+	  position: relative; 
+	  top: 18px;
+	  align-items: center;
+	}
 
   .nav-items li a {
     font-size: 1.2rem;
