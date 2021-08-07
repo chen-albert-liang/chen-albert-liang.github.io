@@ -181,6 +181,7 @@ form input {
   height:5rem; 
   margin:0;  
   font-size: 0.8rem;
+  text-align: center;
 }
 
 form button{
@@ -545,6 +546,7 @@ header h2 {
 
 .bottom-waitlist form input{
   font-size: 0.8rem;
+  margin-bottom: 0
 }
 
 .bottom-waitlist form button{
@@ -552,9 +554,9 @@ header h2 {
 }
 
 .bottom-waitlist{
-  margin: 3rem;
   font-family: 'Courier New', Courier, monospace;  
   text-align: center;
+  align-items: center
 }
 
 .link-button {
