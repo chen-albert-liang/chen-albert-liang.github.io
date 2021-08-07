@@ -177,9 +177,10 @@ textarea {
 form input {
   /* 1 */
   overflow: visible;
-  width: 100%;
+  width: 85%;
   height:5rem; 
   margin:0;  
+  font-size: 0.8rem;
 }
 
 form button{
@@ -187,6 +188,7 @@ form button{
   overflow: visible;
   width: 60%;
   height: 5rem;  
+  font-size: 1.2rem;
 }
 
 
@@ -194,6 +196,7 @@ form {
   position: relative; 
   top: 15 px;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -540,13 +543,20 @@ header h2 {
 }
 
 
-.bottom-waitlist {
+.bottom-waitlist form input{
+  margin: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.bottom-waitlist form button{
   margin: 3rem;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
   text-align: center;
- 
 }
+
 
 .link-button {
   background: #43a241;
@@ -580,6 +590,7 @@ footer {
   /*overflow: visible;*/
   width: 25rem;
   height:5rem;  
+  font-size: 1.2rem;
   }
 
   form button{
@@ -591,11 +602,11 @@ footer {
   }
 
 
-	form {
-	  position: relative; 
-	  top: 18px;
-	  align-items: center;
-	}
+  form {
+	position: relative; 
+	top: 18px;
+	align-items: center;
+  }
 
   .nav-items li a {
     font-size: 1.2rem;
