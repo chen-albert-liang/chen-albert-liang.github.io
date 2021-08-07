@@ -192,7 +192,7 @@ form button{
 
 form {
   position: relative; 
-  top: 10 px;
+  top: 15 px;
   align-items: center;
 }
 /**
@@ -411,7 +411,7 @@ nav ul {
 
 header {
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 header h1 {
@@ -426,7 +426,7 @@ header h1 {
 
 header h2 {
   color: #ffffff;
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
   font-size: 1.2rem;
@@ -447,8 +447,9 @@ header h2 {
 .landing-content h1 {
   font-size: 1.8rem;
   font-weight: normal;
-  margin: 0 0 1rem;
+  margin: 0 0 2rem;
   font-family: 'Courier New', Courier, monospace;
+  
 }
 
 .landing-image {
@@ -463,7 +464,7 @@ header h2 {
 .landing-waitlist h1 {
   /*font-size: 1.8rem;
   font-weight: normal;*/
-  margin: 0 0;
+  margin: 0 0 1rem;
   font-family: 'Courier New', Courier, monospace;
 }
 
