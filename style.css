@@ -551,13 +551,13 @@ header h2 {
 
 .bottom-waitlist form button{
   font-size: 1.2rem;
+  margin-bottom: 3rem;
 }
 
 .bottom-waitlist{
   font-family: 'Courier New', Courier, monospace;  
   text-align: center;
-  align-items: center;
-  margin-bottom: 1rem;
+  align-items: center  
 }
 
 .link-button {
