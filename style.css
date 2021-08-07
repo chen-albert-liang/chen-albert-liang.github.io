@@ -173,10 +173,18 @@ textarea {
    * 1. Show the overflow in Edge.
    */
 
-button,
+button{
+  /* 1 */
+  overflow: visible;
+  width: 15rem;
+  height: 5rem;
+}
+
 input {
   /* 1 */
   overflow: visible;
+  width: 20rem;
+  height:5rem;
 }
 
 /**
@@ -529,15 +537,10 @@ header h2 {
   border-radius: 0.6rem;
   color: #ffffff;
   display: inline-block;
-  padding: 1.2rem 1.8rem;
+  /*-- padding: 1.2rem 1.6rem;--- */
   text-decoration: none;
 }
 
-input[type=text] {
-	background: transparent;
-	border: none;
-	border-bottom: 1px solid #000000;
-}
 
 footer {
   font-size: 0.8rem;
@@ -606,8 +609,6 @@ footer {
     margin-bottom: 0;
     padding: 0;
   }
-
-
 
   .marketing-container {
     align-items: center;
