@@ -179,7 +179,7 @@ form input {
   overflow: visible;
   width: 150%;
   height:5rem; 
-  margin-left:0;  
+  margin:0;  
 }
 
 form button{
@@ -460,7 +460,12 @@ header h2 {
   width: 100%;
 }
 
-
+.landing-waitlist h1 {
+  /*font-size: 1.8rem;
+  font-weight: normal;*/
+  margin: 0 0;
+  font-family: 'Courier New', Courier, monospace;
+}
 
 .marketing-image {
   margin-bottom: 1.5rem;
