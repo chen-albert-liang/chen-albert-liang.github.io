@@ -184,7 +184,7 @@ form input {
 form button{
   /* 1 */
   overflow: visible;
-  width: 50%;
+  width: 70%;
   height: 5rem;
   margin-left:0;
 }
@@ -192,7 +192,7 @@ form button{
 
 form {
   position: relative; 
-  top: 18px;
+  top: 10 px;
   align-items: center;
 }
 /**
@@ -440,6 +440,7 @@ header h2 {
   margin-bottom: 2rem;
   text-align: center;
   padding: 1rem;
+  align-items: center;
 }
 
 
