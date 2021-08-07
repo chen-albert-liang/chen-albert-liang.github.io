@@ -29,12 +29,12 @@
 			  <h1>First Social Trading Platform for Options Users</h1>
 		  </div>
 		  
-		  <form name="submit-to-google-sheet">
-			  <div class="waitlist">
-				<input type="email" name="Email" placeholder="Enter your e-mail Address" />			
-				<button class="link-button" type="submit"id="submit-form" >Alpha User</button>
-			  </div>
-		  </form>
+		  <div class="waitlist">
+		    <form name="submit-to-google-sheet">
+			  <input type="email" name="email" placeholder="Enter your e-mail" required>			
+			  <button class="link-button" type="submit" id="submit" >Become Alpha User</button>
+		    </form>
+		  </div>
       </div>
 
       <div class="landing-image">
@@ -80,12 +80,11 @@
       </div>
     </div>
 
-	
-    <div class="waitlist">
-		<input type="email" placeholder="Enter your e-mail Address" />
-		<a class="link-button" href="https://forms.gle/Jt7rdno4Tc9BNYXm7"
-			>Become Alpha User</a
-		>
+   <div class="waitlist">    
+	  <form name="submit-to-google-sheet2">
+	    <input type="email" name="email" placeholder="Enter your e-mail" required>			
+	    <button class="link-button" type="submit" id="submit2" >Become Alpha User</button>
+	  </form>
     </div>
 
     <footer>
@@ -97,6 +96,7 @@
 	<script>
 	  const scriptURL = 'https://script.google.com/macros/s/AKfycbxabnJwRaylor76pJ6Dbv-GSpRhIDCgIIroR1i0Y9-XCUUe8daJbAMkIn-ZnN92ew23/exec'
 	  const form = document.forms['submit-to-google-sheet']
+	  const form2 = document.forms['submit-to-google-sheet2']
 
 	  form.addEventListener('submit', e => {
 		e.preventDefault()
@@ -104,7 +104,15 @@
 		  .then(response => console.log('Success!', response))
 		  .catch(error => console.error('Error!', error.message))
 	  })
+
+	  form2.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form2)})
+		  .then(response => console.log('Success!', response))
+		  .catch(error => console.error('Error!', error.message))
+	  })
 	</script>
+	
 
   </body>
 </html>
