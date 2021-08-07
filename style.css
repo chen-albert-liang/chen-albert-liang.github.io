@@ -544,19 +544,18 @@ header h2 {
 
 
 .bottom-waitlist form input{
-  margin: 3rem;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 0.8rem;
-  text-align: center;
 }
 
 .bottom-waitlist form button{
-  margin: 3rem;
-  font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
-  text-align: center;
 }
 
+.bottom-waitlist{
+  margin: 3rem;
+  font-family: 'Courier New', Courier, monospace;  
+  text-align: center;
+}
 
 .link-button {
   background: #43a241;
@@ -721,7 +720,10 @@ footer {
     margin: 0;
   }
 
-   
+  .bottom-waitlist form input{
+    font-size: 1.2rem;
+  }
+
 
   /* .function-content .function-items { */
     /* display: flex; */
