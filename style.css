@@ -540,11 +540,12 @@ header h2 {
 }
 
 
-.waitlist {
+.bottom-waitlist {
   margin: 3rem;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2rem;
   text-align: center;
+ 
 }
 
 .link-button {
