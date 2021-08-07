@@ -556,7 +556,8 @@ header h2 {
 .bottom-waitlist{
   font-family: 'Courier New', Courier, monospace;  
   text-align: center;
-  align-items: center
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .link-button {
@@ -723,10 +724,10 @@ footer {
   }
 
   .bottom-waitlist form input{
-    font-size: 1.2rem;
-    margin-bottom: 3rem
-}
+    font-size: 1.2rem;    
   }
+  
+}
 
 
   /* .function-content .function-items { */
