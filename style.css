@@ -177,7 +177,7 @@ textarea {
 form input {
   /* 1 */
   overflow: visible;
-  width: 150%;
+  width: 100%;
   height:5rem; 
   margin:0;  
 }
@@ -185,7 +185,7 @@ form input {
 form button{
   /* 1 */
   overflow: visible;
-  width: 70%;
+  width: 60%;
   height: 5rem;  
 }
 
